@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Form Kontak</title>
+    <link rel="stylesheet" href="../e-commerce/bootstrap5/css/bootstrap.min.css">
+  </head>
+  <body class="bg-light">
+
+    <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+      <div class="col-12 col-md-8 col-lg-6">
+        <div class="card shadow border-0">
+          <div class="card-body p-4 p-md-5">
+            <h2 class="h4 text-center mb-4">Kontak Kami</h2>
+
+            <form class="needs-validation" novalidate>
+              <!-- Nama -->
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nama"
+                  name="nama"
+                  placeholder="Tuliskan nama lengkap"
+                  required
+                />
+                <div class="valid-feedback">Siap! Nama terlihat oke.</div>
+                <div class="invalid-feedback">Nama wajib diisi.</div>
+              </div>
+
+              <!-- Email -->
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="nama@contoh.com"
+                  required
+                />
+                <div class="valid-feedback">Email valid.</div>
+                <div class="invalid-feedback">Masukkan email yang benar.</div>
+              </div>
+
+              <!-- Pesan -->
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea
+                  class="form-control"
+                  id="pesan"
+                  name="pesan"
+                  rows="4"
+                  placeholder="Tulis pesan kamu di sini..."
+                  required
+                ></textarea>
+                <div class="valid-feedback">Siap dikirim.</div>
+                <div class="invalid-feedback">Pesan tidak boleh kosong.</div>
+              </div>
+
+              <div class="d-grid">
+                <button class="btn btn-success" type="submit">Kirim</button>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="../e-commerce/bootstrap5/js/bootstrap.bundle.min.js"></script>
+    <script src="js/form.js"></script>
+  </body>
+</html>
