@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 min-h-screen">
+    <div class="max-w-6xl mx-auto px-6 py-12">
+      <h1 class="text-3xl font-bold text-center mb-10">Latest Blog Posts</h1>
+
+      <!-- Blog Grid -->
+      <div class="grid gap-8 md:grid-cols-3">
+        <!-- Card 1 -->
+        <div
+          class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition"
+        >
+          <img
+            src="../minpro-3/img/toy-1.jpg"
+            alt="Blog 1"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h2 class="text-xl font-bold mb-2">Belajar Tailwind CSS</h2>
+            <p class="text-gray-600 mb-4 text-sm">
+              Tailwind memudahkan membuat desain modern dengan utility classes
+              tanpa harus menulis CSS panjang.
+            </p>
+            <a
+              href="#"
+              class="text-blue-600 font-semibold hover:underline"
+              >Read More →</a
+            >
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition"
+        >
+          <img
+            src="../minpro-3/img/toy-1.jpg"
+            alt="Blog 2"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h2 class="text-xl font-bold mb-2">Tips JavaScript Modern</h2>
+            <p class="text-gray-600 mb-4 text-sm">
+              ES6 membawa banyak fitur baru seperti arrow function, let/const,
+              dan async/await yang wajib kamu kuasai.
+            </p>
+            <a
+              href="#"
+              class="text-blue-600 font-semibold hover:underline"
+              >Read More →</a
+            >
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition"
+        >
+          <img
+            src="../minpro-3/img/toy-1.jpg"
+            alt="Blog 3"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h2 class="text-xl font-bold mb-2">Belajar Backend Node.js</h2>
+            <p class="text-gray-600 mb-4 text-sm">
+              Node.js membantu membuat aplikasi server dengan JavaScript,
+              powerful dan cocok untuk pemula maupun expert.
+            </p>
+            <a
+              href="#"
+              class="text-blue-600 font-semibold hover:underline"
+              >Read More →</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

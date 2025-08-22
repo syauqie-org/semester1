@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Syauqie Billah</title>
+    <link rel="stylesheet" href="../../src/output.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+      <div
+        class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4"
+      >
+        <h1 class="text-xl font-bold">Syauqie.dev</h1>
+        <ul class="hidden md:flex gap-6 font-medium">
+          <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+          <li><a href="#about" class="hover:text-blue-600">About</a></li>
+          <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+          <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+        <button class="md:hidden text-2xl">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header
+      id="home"
+      class="pt-32 pb-20 bg-gradient-to-r from-blue-50 to-blue-100"
+    >
+      <div
+        class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10"
+      >
+        <div class="flex-1 text-center md:text-left">
+          <h1 class="text-4xl md:text-5xl font-bold">
+            Halo 👋, Saya <span class="text-blue-600">Syauqie Billah</span>
+          </h1>
+          <p class="mt-4 text-gray-600 max-w-md mx-auto md:mx-0">
+            Seorang programmer pemula yang sedang belajar web development
+            menggunakan HTML, CSS, JavaScript, dan framework modern.
+          </p>
+          <a
+            href="#projects"
+            class="inline-block mt-6 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-md"
+            >Lihat Proyek Saya</a
+          >
+        </div>
+        <div class="flex-1">
+          <img
+            src="../minpro-1/image/syauqie.webp"
+            alt="Coding"
+            class="rounded-full shadow-lg h-70"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="py-16 bg-white">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-4">Tentang Saya</h2>
+        <p class="text-gray-600 leading-relaxed">
+          Saya adalah seorang mahasiswa yang baru memulai perjalanan di dunia
+          pemrograman. Tujuan saya adalah menguasai dasar-dasar web development
+          dan membangun proyek sederhana untuk meningkatkan skill.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-16 bg-gray-100">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-10">Skills</h2>
+        <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
+          <div class="bg-white p-6 rounded-xl shadow-md">
+            <i class="fa-brands fa-html5 text-4xl text-orange-500"></i>
+            <h3 class="mt-3 font-semibold">HTML</h3>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow-md">
+            <i class="fa-brands fa-css3-alt text-4xl text-blue-500"></i>
+            <h3 class="mt-3 font-semibold">CSS</h3>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow-md">
+            <i class="fa-brands fa-js text-4xl text-yellow-500"></i>
+            <h3 class="mt-3 font-semibold">JavaScript</h3>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow-md">
+            <i class="fa-brands fa-bootstrap text-4xl text-purple-600"></i>
+            <h3 class="mt-3 font-semibold">Bootstrap</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-16 bg-white">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-10">Projects</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="bg-gray-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition"
+          >
+            <img
+              src="https://via.placeholder.com/400x250"
+              alt="Project 1"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="font-semibold text-lg">Website Portfolio</h3>
+              <p class="text-gray-600 text-sm mt-2">
+                Website sederhana untuk memperkenalkan diri dan menampilkan
+                skill.
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-gray-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition"
+          >
+            <img
+              src="https://via.placeholder.com/400x250"
+              alt="Project 2"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="font-semibold text-lg">Landing Page</h3>
+              <p class="text-gray-600 text-sm mt-2">
+                Membuat landing page responsif dengan Tailwind CSS.
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-gray-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition"
+          >
+            <img
+              src="https://via.placeholder.com/400x250"
+              alt="Project 3"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="font-semibold text-lg">Mini Blog</h3>
+              <p class="text-gray-600 text-sm mt-2">
+                Blog sederhana untuk latihan CRUD dengan JavaScript.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 bg-gray-100">
+      <div class="max-w-3xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+        <p class="text-gray-600 mb-6">
+          Jika kamu ingin berdiskusi atau belajar bersama, jangan ragu untuk
+          menghubungi saya.
+        </p>
+        <form class="space-y-4">
+          <input
+            type="text"
+            placeholder="Nama"
+            class="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            class="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          <textarea
+            rows="4"
+            placeholder="Pesan"
+            class="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-blue-500"
+          ></textarea>
+          <button
+            type="submit"
+            class="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-md"
+          >
+            Kirim Pesan
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 text-center py-6">
+      <p>&copy; 2025 Syauqie Billah. Dibuat dengan ❤ menggunakan Tailwind CSS</p>
+    </footer>
+
+    <!-- FontAwesome -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+      defer
+    ></script>
+  </body>
+</html>
