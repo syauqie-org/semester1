@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: sticky;
+  z-index: 20;
+  top: 0;
+  background-color: black;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: gray;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  border: 2px solid rgb(248, 26, 92);
+  font-family: "Rubik", sans-serif;
+}
+
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: rgb(248, 26, 92);
+  color: white;
+  font-family: "Rubik", sans-serif;
+  border-radius: 60px;
+  font-weight: 700;
+}
+
+.main {
+  position: relative;
+  background: url(../img/kiwss.jpg) no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* shorthand top:0; right:0; bottom:0; left:0 */
+  background-color: rgba(0, 0, 0, 0.5); /* hitam dengan opacity 50% */
+}
+
+.main .container {
+  position: relative;
+  z-index: 1; /* supaya teks/tombol di atas overlay */
+}
+
+.main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: "poppins", serif;
+  color: #fd6600;
+}
+
+.main p {
+  color: white;
+}
+
+.btn1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgb(248, 26, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+
+.btn1:hover {
+  background-color: rgb(223, 26, 92);
+  transition: 0.5s;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.card:hover {
+  box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
+}
+
+.apple {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/apple.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+
+.apple h1 {
+  font-family: "Lobster", sans-serif;
+}
+
+.news {
+  background-color: black;
+  color: white;
+}
+
+.btn2 {
+  height: 45px;
+  width: 100px;
+  background-color: white;
+  margin-left: -10px;
+  border: 2px solid white;
+  font-weight: 600;
+}
+
+.news input {
+  height: 45px;
+  width: 55%;
+  border: 2px solid white;
+  outline: none;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.news::placeholder {
+  color: white;
+}
+
+.news p {
+  margin: 0;
+}
+
+.fa-brands {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
